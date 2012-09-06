@@ -39,8 +39,8 @@ People realized these problems and invented multi-paradigm languages (also known
 
 @section{Where did this way of classification come from?}
 
-This comes from a false sense of how to make Computer Science, a science. If are in the 60s, the CS folks 
-got harassed by the real scientists claiming that CS is not real science.
+This comes from a false sense of how to make Computer Science, a science. If you were around in the 60s, the
+CS folks got harassed by the real scientists [claiming that CS is not real science].
 
 What did Scientists like John Dalton, Erwin Chargaff and Carl Linnaeus do? They were actually 
 doing something very profound. What does the atomic theory give us? There are all these things and people
@@ -58,7 +58,7 @@ This class is about thinking scientifically about programming languages. Let us 
 
 @margin-note{How did they ``bootstrap''?}
 
-In the same way, we (the class) is only allowed to use concepts that are already introduced in 
+In the same way, we (in this class) are only allowed to use concepts that are already introduced in 
 @bold{this class}. It is perfectly meaningful to ask whether a program follows a particular style. 
 But these terms (like Object Orientation for example) are too vague and means different things in
 different languages.
@@ -106,9 +106,9 @@ So let us talk about core features that are unambiguous in all the languages. We
 simplification of a language from its outward appearence to the core language as ``desugaring''. We 
 call these additional things that a language offers as  ``syntactic sugar''.
 
-Everybody should read Alan Perlis's epigrams every year.
+Everybody should read Alan Perlis's epigrams every year: http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html
 
-@margin-note{``@italic{Syntactic Sugar causes cancer of the semicolon}'' -- Alan Perlis}
+@margin-note{``@italic{Syntactic Sugar causes cancer of the semicolon}'' -- Alan Perlis, Epigram 3}
 
 >> Q: Why do we do it on programming languages rather than on programs?
 A: It is a compiler so that it can be applied to all programs.
@@ -141,7 +141,7 @@ A: It is a compiler so that it can be applied to all programs.
   
 So, given a programming language:
  - we are going to desugar it.
- - we prove that the desugarred language is correct.
+ - we prove that the desugared language is correct.
 
 >> one should be able to implement the core language. 
 >> In this course, we implement the core language using an interpreter.
@@ -166,14 +166,14 @@ WARNING: unlikely that most will do for the whole of python.
 
 >> If you build a language, someone will find new ways to put it to use.
 
->> Every configuration becomes one of the following two:
+>> Every configuration file language becomes one of the following two:
  - it grows up to become a full programming language
  - or it dies.
 
 It dies because nobody cares about it. If someone cares about it, they will send you a feature request. (eg: add let constructs, add functions, closures, generators, exception handling (without thinking about how exceptions interact with generators etc)
 
 >> Here is why I am teaching you this: you can run this entire recipe backwards.
->> Don't do this: (Stackoverflow excerpt)
+>> Don't do this: (Stackoverflow excerpt) http://stackoverflow.com/questions/3662410/create-my-own-programming-language
  - the answers talk about parsers!
  - this is exactly the kind of things that leads to nonsensical languages.
 
