@@ -1,0 +1,15 @@
+When categorizing boxes to classify languages, why were they boxes and not, for example venn diagrams?  Perhaps because boxes are easier to draw?  Perhaps because the ambiguities surrounding the words would make drawing the boundaries of venn diagrams difficult?
+
+
+In the arithmetic desuguring example starting at http://www.youtube.com/watch?v=3N__tvmZrzc&t=23m15s, note that there was something else "sneaky" going on: we are gradually limiting our domains.  Either that, or perhaps we started out assuming a limited domain (perhaps "natural numbers").
+
+exponentiation as repeated multiplication probably requires a non-negative integer for the exponent.
+
+multiplication as repeated addition probably requires an integer as one of the factors (might be able to use complex integers here, but that would be... more complex, and gets away from multiplication being a simple loop).  Actually, negative integers also get away from multiplication from being a simple loop since we need some kind of conditional sign reversal on the result to handle negative signs.  [Did the
+
+addition as repeated increment probably is also requiring us to use an integer domain.  (Or maybe a rational domain if we can make problems involving the denominator go away.)
+
+But this isn't the only "sneaky issue" -- there's also the whole "resources used".  If we're going for turing equivalence, we ignore how long things take (turing machines come pre-equipped with infinite time and infinite tape).  But if time matters then we're getting into complicated issues.  (So we probably say that time does not matter, very much, to keep things simple... for now.)
+
+
+
