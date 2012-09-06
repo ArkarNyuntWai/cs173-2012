@@ -33,13 +33,13 @@ For eg:
 @itemlist[@item{markup languages (eg: html)}
           @item{scripting languages (eg: perl, python, java``script'')}]
 
-Should Python be in scripting languages box and javascript stay where it should be?
+Should Python be in the scripting languages box and is javascript where it should be?
 
 People realized these problems and invented multi-paradigm languages (also known as ``blobs'') or in other words ``we have no clue''.
 
 @section{Where did this way of classification come from?}
 
-This comes from a false sense of how to make Computer Science, a science. If you were around in the 60s, the
+This comes from a false sense of how to make Computer Science a science. If you were around in the 60s, the
 CS folks got harassed by the real scientists [claiming that CS is not real science].
 
 What did Scientists like John Dalton, Erwin Chargaff and Carl Linnaeus do? They were actually 
@@ -60,7 +60,7 @@ This class is about thinking scientifically about programming languages. Let us 
 
 In the same way, we (in this class) are only allowed to use concepts that are already introduced in 
 @bold{this class}. It is perfectly meaningful to ask whether a program follows a particular style. 
-But these terms (like Object Orientation for example) are too vague and means different things in
+But these terms (like Object Orientation for example) are too vague and mean different things in
 different languages.
 
 @section{Building from bottom-up}
@@ -71,7 +71,7 @@ are great if we have a certain mathematical mindset. We are here because we want
 real world complexity.
 
 Somebody says ``here is a new programming language''. What is it? What does a new programming 
-language actually give you.
+language actually give you?
 
 @itemlist[@item{specification}
           @item{something that runs}]
@@ -98,7 +98,7 @@ composition of features.
 What would happen if we instead evaluate a language purely based on its outward features like ``Objects''
 for instance?
 
-Objects mean different in different languages like Java, Ruby, Racket etc.
+Objects mean different in different languages like Java, Ruby, Racket, etc.
 
 @section{Desugaring}
 
@@ -106,7 +106,7 @@ So let us talk about core features that are unambiguous in all the languages. We
 simplification of a language from its outward appearence to the core language as ``desugaring''. We 
 call these additional things that a language offers as  ``syntactic sugar''.
 
-Everybody should read Alan Perlis's epigrams every year: http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html
+Everybody should read Alan Perlis' epigrams every year: http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html
 
 @margin-note{``@italic{Syntactic Sugar causes cancer of the semicolon}'' -- Alan Perlis, Epigram 3}
 
@@ -150,7 +150,7 @@ So, given a programming language:
 
   - did we get it right? The language came with its own implementation. So, we need to verify correctness.
 
->> SK's research group does exactly this for ES5, DOM event model, JQuery etc.
+>> SK's research group does exactly this for ES5, DOM event model, JQuery, etc.
 
 >> In this class, we are going to do this twice.
  - one for a language called ``Parceltongue'' <http://harrypotter.wikia.com/wiki/Parseltongue>
