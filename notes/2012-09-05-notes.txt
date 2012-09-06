@@ -53,10 +53,10 @@ What were these guys doing? They were actually doing something very profound.
 
 These two are really powerful ideas.
 
-The classification shown earlier are complete non-sense.
+The language classification shown earlier are complete non-sense.
 
 This class is about scientific mindset on programming languages.
-Take a Victorian mindset - don't talk to someone until it is introduced to them. (How did they "bootstrap"?) :)
+Take a Victorian mindset - don't talk to someone until that person is introduced to you. (How did they "bootstrap"?) :)
 
 In the same way, we (the class) is only allowed to use concepts that are already introduced in *this* class.
 
