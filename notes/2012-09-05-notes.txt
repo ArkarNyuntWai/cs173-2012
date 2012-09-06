@@ -1,3 +1,4 @@
+
 >>> How?
 
 How do we go about studying programming languages? Everyone is exposed to some programming languages. How are languages "classified"?
@@ -46,19 +47,19 @@ If are in the 60s, the CS folks got harassed by the real scientists claiming tha
 
 What were these guys doing? They were actually doing something very profound.
 
-- what does the atomic theory give us? There is all these stuff around us. Every one of these objects are different. Can we break it down into smaller things.
+- what does the atomic theory give us? There is all these stuff around us. Every one of these objects is different. Can we break it down into smaller things.
 
 - what are those smaller pieces?
 - what are the rules of composition?
 
 These two are really powerful ideas.
 
-The language classification shown earlier are complete non-sense.
+The language classification shown earlier are complete nonsense.
 
 This class is about scientific mindset on programming languages.
 Take a Victorian mindset - don't talk to someone until that person is introduced to you. (How did they "bootstrap"?) :)
 
-In the same way, we (the class) is only allowed to use concepts that are already introduced in *this* class.
+In the same way, we (the class) are only allowed to use concepts that are already introduced in *this* class.
 
 It is perfectly meaningful to ask whether a program follows a particular style. But these terms (like OO for eg) are too vague.
 
@@ -95,10 +96,10 @@ Objects mean different in different languages like Java, Ruby, Racket etc.
 
 >> So let us talk about core features that are unambiguous in all the languages.
 
->> We call the process of simplification as "Desugar". We call these additional things, syntactic sugar.
->> Everybody should read Alan Perlis's epigrams every year.
+>> We call the process of simplification "Desugaring". We call these additional things "syntactic sugar".
+>> Everybody should read Alan Perlis's epigrams every year: http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html
 
-"syntactic sugar causes cancer of the semicolon"
+"syntactic sugar causes cancer of the semicolon" (Epigram 3)
 
 >> Q: Why do we do it on programming languages rather than on programs?
 A: It is a compiler so that it can be applied to all programs.
@@ -131,7 +132,7 @@ A: It is a compiler so that it can be applied to all programs.
   
 So, given a programming language:
  - we are going to desugar it.
- - we prove that the desugarred language is correct.
+ - we prove that the desugared language is correct.
 
 >> one should be able to implement the core language. 
 >> In this course, we implement the core language using an interpreter.
@@ -156,14 +157,14 @@ WARNING: unlikely that most will do for the whole of python.
 
 >> If you build a language, someone will find new ways to put it to use.
 
->> Every configuration becomes one of the following two:
+>> Every configuration file language becomes one of the following two:
  - it grows up to become a full programming language
  - or it dies.
 
 It dies because nobody cares about it. If someone cares about it, they will send you a feature request. (eg: add let constructs, add functions, closures, generators, exception handling (without thinking about how exceptions interact with generators etc)
 
 >> Here is why I am teaching you this: you can run this entire recipe backwards.
->> Don't do this: (Stackoverflow excerpt)
+>> Don't do this: (Stackoverflow excerpt) http://stackoverflow.com/questions/3662410/create-my-own-programming-language
  - the answers talk about parsers!
  - this is exactly the kind of things that leads to nonsensical languages.
 
