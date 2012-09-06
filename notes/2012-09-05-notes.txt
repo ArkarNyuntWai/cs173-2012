@@ -38,7 +38,7 @@ Where did this way of classification come from?
 
 This comes from a false sense of how to make CS a science.
 
-If are in the 60s, the CS folks got harassed by the real scientists claiming that CS is not real science.
+If you were around in the 60s, the CS folks got harassed by the real scientists [claiming that CS is not real science].
 
 >> Slide shows three photos
 - John Dalton (atoms) (right most)
